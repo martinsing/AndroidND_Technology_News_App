@@ -1,9 +1,5 @@
 package com.vegetablecorp.technews;
 
-/**
- * Created by Megatron on 2017-07-19.
- */
-
 public class Article {
 
     private String mSectionName;

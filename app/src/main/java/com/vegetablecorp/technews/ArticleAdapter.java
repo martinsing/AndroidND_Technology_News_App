@@ -10,10 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Megatron on 2017-07-19.
- */
-
 public class ArticleAdapter extends ArrayAdapter<Article> {
 
     // Create a constant tag for so we know log messages came from this class

@@ -18,13 +18,11 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Megatron on 2017-07-19.
- */
-
 public final class QueryUtils {
 
-    /** Tag for the log messages */
+    /**
+     * Tag for the log messages
+     */
     private static final String LOG_TAG = QueryUtils.class.getSimpleName();
 
     /**
@@ -153,7 +151,7 @@ public final class QueryUtils {
             // Create a JSONObject from the JSON response string
             JSONObject baseJsonResponse = new JSONObject(articleJSON);
 
-            JSONObject response = baseJsonResponse. getJSONObject("response");
+            JSONObject response = baseJsonResponse.getJSONObject("response");
 
             // Extract the JSONArray associated with the key called "results",
             // which represents a list of features (or articles).

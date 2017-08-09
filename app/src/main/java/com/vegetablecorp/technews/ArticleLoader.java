@@ -6,10 +6,6 @@ import android.util.Log;
 
 import java.util.List;
 
-/**
- * Created by Megatron on 2017-07-19.
- */
-
 public class ArticleLoader extends AsyncTaskLoader<List<Article>> {
 
     /** Tag for log messages */
